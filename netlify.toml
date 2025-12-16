@@ -1,8 +1,7 @@
 [build]
-command = "cd protocolo_emagrecer_web && pnpm install && pnpm build"
-publish = "protocolo_emagrecer_web/out"
+  publish = "out"
 
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
